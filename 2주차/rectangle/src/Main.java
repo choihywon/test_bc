@@ -3,7 +3,6 @@ abstract class Shape {
     protected String shapeType;
     public abstract double getArea();
 
-    // 도형의 종류를 출력하는 메서드
     public String getShapeType() {
         return shapeType;
     }
@@ -12,7 +11,6 @@ abstract class Shape {
 class Circle extends Shape {
     private double radius;
 
-    // 생성자: 원의 반지름을 초기화합니다.
     public Circle(double radius) {
         this.radius = radius;
         this.shapeType = "원";
@@ -28,14 +26,12 @@ class Rectangle extends Shape {
     private double length;
     private double width;
 
-    // 생성자: 사각형의 길이와 너비를 초기화합니다.
     public Rectangle(double length, double width) {
         this.length = length;
         this.width = width;
         this.shapeType = "사각형";
     }
 
-    // 면적을 계산하는 메서드
     @Override
     public double getArea() {
         return length * width;
