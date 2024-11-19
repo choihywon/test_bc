@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="helloworld.MemberDAO"/>
+    <fullyQualifiedTypeName name="helloworld.MemberDTO"/>
+    <fullyQualifiedTypeName name="helloworld.MemberController"/>
+    <fullyQualifiedTypeName name="java.awt.Toolkit"/>
+    <fullyQualifiedTypeName name="MultiGeneric.Product"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+</qualifiedTypeNameHistroy>
