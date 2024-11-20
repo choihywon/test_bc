@@ -1,0 +1,15 @@
+package MapEx;
+
+import java.util.*;
+
+
+public class HashMap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Map<String, String> map = new HashMap<String, String>();
+		map.put("test001", "a1111");
+		
+	}
+
+}

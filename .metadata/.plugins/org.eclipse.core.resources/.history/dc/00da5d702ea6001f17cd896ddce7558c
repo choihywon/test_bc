@@ -1,0 +1,5 @@
+package lambdaEx;
+
+public interface MyInterfaceEx01 {
+
+}
