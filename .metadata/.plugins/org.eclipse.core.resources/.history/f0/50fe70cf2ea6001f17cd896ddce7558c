@@ -1,0 +1,20 @@
+package lambdaEx;
+
+public class MyFnInterfaceEx2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyInterfaceEx01 fi;
+		fi = () -> {
+			String str = "method call01";
+			System.out.println(str);
+		};
+		fi.method();
+		fi = () ->  {System.out.println("method call02");};
+		fi.method();
+		fi = () ->  {System.out.println("method call03");};
+		fi.method();
+		
+	}
+
+}

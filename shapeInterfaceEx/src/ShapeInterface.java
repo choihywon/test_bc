@@ -1,0 +1,3 @@
+interface ShapeInterface {
+    double calculateArea();
+}

@@ -72,6 +72,7 @@
       <artifactId>cglib</artifactId>
       <version>2.2.2</version>
     </dependency>
+<<<<<<< HEAD
 
     <dependency>
       <groupId>junit</groupId>
@@ -82,4 +83,10 @@
   </dependencies>
 
 
+=======
+  </dependencies>
+  <build>
+    <finalName>mvcproject</finalName>
+  </build>
+>>>>>>> 324372999c04c9dc2919809400a867af187bbeef
 </project>

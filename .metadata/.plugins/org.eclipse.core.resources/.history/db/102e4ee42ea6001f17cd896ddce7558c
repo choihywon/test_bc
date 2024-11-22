@@ -1,0 +1,6 @@
+package lambdaEx;
+
+@FunctionalInterface
+public interface MyInterfaceEx2 {
+	public void method(int x, int y);
+}
